@@ -78,10 +78,6 @@ footer {
   border-radius: 100%;
 }
 
-.bio {
-  /* width: 66.66%; */
-}
-
 .bio h1 {
   margin: 5px 0 5px;
   font-size: 3em;
@@ -113,7 +109,7 @@ content h3 {
   width: 100%;
 }
 
-#badge  img {
+#badge img {
   display: block;
   margin: 0 auto;
   width: 150px;
@@ -217,12 +213,22 @@ img.icon-big {
     width: 48%;
     margin: 0;
   }
+
+  #badge img {
+    margin: 10px auto;
+    width: 200px;
+  }
 }
 
 @media only screen and (max-width: 580px) {
   aside {
     flex-direction: column;
     align-items: center;
+  }
+
+  .bio h1 {
+    margin: 5px auto;
+    width: 90%;
   }
 
   .item {

@@ -160,11 +160,7 @@ img.icon-big {
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 700px) {
-  body {
-    background-color: lightblue;
-  }
-
+@media screen and (max-width: 700px) {
   main {
     margin: 0 auto;
     height: 100%;
@@ -190,7 +186,7 @@ img.icon-big {
     grid-gap: 2em;
   }
 
-  header h1,h2 {
+  header  h2, header h1 {
     text-align: center;
   }
 
@@ -207,7 +203,7 @@ img.icon-big {
   }
 }
 
-@media only screen and (max-width: 580px) {
+@media screen and (max-width: 580px) {
   aside .item {
     width: 100%;
     margin: 0;

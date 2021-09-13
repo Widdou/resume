@@ -160,7 +160,7 @@ img.icon-big {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
   main {
     margin: 0 auto;
     height: 100%;
@@ -203,7 +203,7 @@ img.icon-big {
   }
 }
 
-@media screen and (max-width: 580px) {
+@media only screen and (max-width: 580px) {
   aside .item {
     width: 100%;
     margin: 0;

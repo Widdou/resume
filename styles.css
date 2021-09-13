@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+::selection {
+  color: #ff9a00;
+  text-shadow: 0px 0px 2px #ff9a00cc;
+}
+
+::selection img {
+  background-color: green;
+}
+
 body {
   background: rgb(255, 255, 255);
   font-family: "Glory", Roboto;

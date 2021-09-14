@@ -114,6 +114,10 @@ content h3 {
   font-size: 1.3em;
 }
 
+content p {
+  text-align: justify;
+}
+
 #badge {
   width: 100%;
 }

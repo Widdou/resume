@@ -4,11 +4,11 @@
 
 ::selection {
   color: #ff9a00;
-  text-shadow: 0px 0px 2px #ff9a00cc;
-}
-
-::selection img {
-  background-color: green;
+  /* text-shadow: 0px 0px 1px #ff9a00cc; */
+  background: rgb(0, 191, 255);
+  
+  color: rgb(0, 127, 200);
+  background: #ff9a00;
 }
 
 body {
@@ -121,7 +121,7 @@ content h3 {
 #badge img {
   display: block;
   margin: 0 auto;
-  width: 150px;
+  width: 175px;
 }
 
 /*---------------------------------------------*/
@@ -173,8 +173,16 @@ img.external-link {
   margin-left: 5px;
 }
 
-img.icon-big {
-  width: 20px;
+#contact {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact img {
+  width: 24px;
+  margin: 3px 5px;
 }
 
 /* MEDIA QUERIES */
